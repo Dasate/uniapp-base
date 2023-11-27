@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "test-immersiveToIcewindow",
+  "usingComponents": {
+    "pub-z-csb": "../../components/public/pub-z-csb",
+    "lay-layout": "../../components/layout/lay-layout"
+  }
+}

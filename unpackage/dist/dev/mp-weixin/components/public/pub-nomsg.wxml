@@ -1,0 +1,1 @@
+<view class="no-msg data-v-ac2d3e43"><view class="img data-v-ac2d3e43"><image class="data-v-ac2d3e43" src="{{a}}"/></view><view class="tip data-v-ac2d3e43">{{b}}</view><slot></slot></view>

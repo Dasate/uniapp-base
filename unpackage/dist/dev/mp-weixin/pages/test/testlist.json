@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "testlist",
+  "usingComponents": {
+    "pub-list": "../../components/public/pub-list",
+    "lay-layout": "../../components/layout/lay-layout"
+  }
+}

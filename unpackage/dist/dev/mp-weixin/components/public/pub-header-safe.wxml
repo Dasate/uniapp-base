@@ -1,0 +1,1 @@
+<view wx:if="{{a}}" class="pub-header-safe data-v-0a824231"><view class="placeholder data-v-0a824231" style="{{'padding-top:' + b}}"></view><view class="header-fixed data-v-0a824231" style="{{'height:' + c + ';' + ('background:' + d)}}"></view></view>

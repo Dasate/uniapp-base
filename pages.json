@@ -1,0 +1,138 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "首页"
+      },
+      "meta": {
+        "checkLogin": true
+      }
+    },
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": "登录"
+      },
+      "meta": {
+        "checkLogin": false
+      }
+    },
+    {
+      "path": "pages/test/test",
+      "style": {
+        "navigationBarTitleText": "test",
+        "onReachBottomDistance": 50
+      },
+      "meta": {
+        "checkLogin": true
+      }
+    },
+    {
+      "path": "pages/test/test-immersive",
+      "style": {
+        "navigationBarTitleText": "test-immersive"
+      },
+      "meta": {
+        "checkLogin": true
+      }
+    },
+    {
+      "path": "pages/test/test-immersiveTo",
+      "style": {
+        "navigationBarTitleText": "test-immersiveTo"
+      },
+      "meta": {
+        "checkLogin": true
+      }
+    },
+    {
+      "path": "pages/test/test-immersiveToIcewindow",
+      "style": {
+        "navigationBarTitleText": "test-immersiveToIcewindow"
+      },
+      "meta": {
+        "checkLogin": true
+      }
+    },
+    {
+      "path": "pages/test/test-onlysafe",
+      "style": {
+        "navigationBarTitleText": "test-onlysafe"
+      },
+      "meta": {
+        "checkLogin": true
+      }
+    },
+    {
+      "path": "pages/test/test-list",
+      "style": {
+        "navigationBarTitleText": "test-list"
+      },
+      "meta": {
+        "checkLogin": true
+      }
+    },
+    {
+      "path": "pages/test/test-list-m",
+      "style": {
+        "navigationBarTitleText": "test-list-m"
+      },
+      "meta": {
+        "checkLogin": true
+      }
+    },
+    {
+      "path": "pages/test/test-slot",
+      "style": {
+        "navigationBarTitleText": "test-slot"
+      },
+      "meta": {
+        "checkLogin": true
+      }
+    },
+    {
+      "path": "pages/test/test-nomsg",
+      "style": {
+        "navigationBarTitleText": "test-nomsg"
+      },
+      "meta": {
+        "checkLogin": true
+      }
+    },
+    {
+      "path": "pages/test/test-form",
+      "style": {
+        "navigationBarTitleText": "test-form"
+      },
+      "meta": {
+        "checkLogin": true
+      }
+    },
+    {
+      "path": "pages/test/test-fx",
+      "style": {
+        "navigationBarTitleText": "test-fx"
+      },
+      "meta": {
+        "checkLogin": true
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "navigationStyle": "custom"
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "uniIdRouter": {},
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^pub-(.*)": "@/components/public/pub-$1.vue",
+      "^lay-(.*)": "@/components/layout/lay-$1.vue",
+      "^lib-(.*)": "@/components/lib/lib-$1.vue"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "pub-header": "../public/pub-header",
+    "pub-tabbar": "../public/pub-tabbar"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "test",
+  "onReachBottomDistance": 50,
+  "usingComponents": {
+    "lay-layout": "../../components/layout/lay-layout"
+  }
+}

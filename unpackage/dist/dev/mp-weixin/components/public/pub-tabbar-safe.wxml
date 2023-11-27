@@ -1,0 +1,1 @@
+<view wx:if="{{a}}" class="pub-tabbar-safe data-v-9750d66f"><view class="placeholder data-v-9750d66f" style="{{'padding-bottom:' + b}}"></view><view wx:if="{{c}}" class="tabbar-fixed data-v-9750d66f" style="{{'height:' + d + ';' + ('background:' + e)}}"></view></view>

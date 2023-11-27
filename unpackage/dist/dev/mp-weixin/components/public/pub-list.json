@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "pub-nomsg": "./pub-nomsg",
+    "u-loadmore": "../../uni_modules/vk-uview-ui/components/u-loadmore/u-loadmore"
+  }
+}

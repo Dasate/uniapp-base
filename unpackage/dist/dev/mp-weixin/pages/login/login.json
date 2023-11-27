@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "登录",
+  "usingComponents": {
+    "pub-form": "../../components/public/pub-form",
+    "lay-layout": "../../components/layout/lay-layout"
+  }
+}

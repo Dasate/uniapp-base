@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/test/test",
+    "pages/test/test-immersive",
+    "pages/test/test-immersiveTo",
+    "pages/test/test-immersiveToIcewindow",
+    "pages/test/test-onlysafe",
+    "pages/test/testlist",
+    "pages/test/testnomsg",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "navigationStyle": "custom"
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,207 @@
+/* 全局引入字体包*/
+/* 小程序安卓部分机型有兼容问题，字体包比较大建议放同源服务器，用https引入 */
+/*  @font-face{
+  font-family: 'font';
+  src:url();//个性化字体包地址
+} */
+page {
+  font-family: 'font', PingFangSC, Microsoft YaHei, arial, tahoma,
+    '\5fae\8f6f\96c5\9ed1', 'Hiragino Sans GB', sans-serif;
+}
+.flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-b {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.flex-a {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.bgw{
+  background: #ffffff;
+}
+.bgcw{
+  background-color: #ffffff;
+}
+
+/* 文字省略 */
+.text-hide {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.text-hide-1 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.text-hide-2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.text-hide-3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+.text-hide-4 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+}
+.text-hide-5 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+}
+/*编辑器样式*/
+.edit {
+  &-p {
+    word-break: break-all;
+    font-size: 26rpx;
+    line-height: 1.4;
+  }
+  &-img {
+    display: inline-block;
+    height: auto;
+    vertical-align: top;
+    width: 100% !important;
+  }
+  &-h1 {
+    font-size: 64rpx;
+    line-height: 2;
+    opacity: 0.9;
+  }
+  &-h2 {
+    font-size: 48rpx;
+    line-height: 2;
+    opacity: 0.9;
+  }
+  &-h3 {
+    font-size: 38rpx;
+    line-height: 2;
+    opacity: 0.9;
+  }
+  &-h4 {
+    font-size: 32rpx;
+    line-height: 2;
+    opacity: 0.9;
+  }
+  &-h5 {
+    font-size: 28rpx;
+    line-height: 2;
+    opacity: 0.9;
+  }
+  &-h6 {
+    font-size: 24rpx;
+    line-height: 2;
+    opacity: 0.9;
+  }
+  &-a {
+    color: #7030a0;
+    text-decoration: underline;
+  }
+  &-th,
+  &-td {
+    border: 1px solid #000;
+  }
+}
+
+page {
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  line-height: 1;
+  word-break: break-all;
+  font-size: 24rpx;
+  color: #333;
+  background-color: #fff;
+  min-height: 100%;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+button::after {
+  border: none;
+}
+
+page image {
+  width: 100%;
+  height: 100%;
+}
+
+view,
+text,
+button,
+input,
+textarea {
+  /* font-family: 'font', PingFangSC, Microsoft YaHei, arial, tahoma, '\5fae\8f6f\96c5\9ed1', 'Hiragino Sans GB', sans-serif; */
+  box-sizing: border-box;
+  word-break: break-word;
+}
+
+input,
+textarea {
+  width: 100%;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  background: none;
+  font-size: 24rpx;
+  line-height: 1;
+  border-radius: 0;
+  overflow: visible;
+  -webkit-tap-highlight: transparent;
+}
+
+.hide {
+  display: none !important;
+}
+// .z1至.z20 方便区别图层优先级
+@for $i from 1 through 20 {
+  .z#{$i} {
+    position: relative;
+    z-index: $i;
+  }
+}

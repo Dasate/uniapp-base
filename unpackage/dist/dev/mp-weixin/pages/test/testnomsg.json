@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "testnomsg",
+  "usingComponents": {
+    "pub-nomsg": "../../components/public/pub-nomsg",
+    "lay-layout": "../../components/layout/lay-layout"
+  }
+}

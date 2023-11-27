@@ -1,0 +1,1 @@
+<lay-layout wx:if="{{b}}" class="data-v-7c2ebfa5" u-s="{{['d']}}" u-i="7c2ebfa5-0" bind:__l="__l" u-p="{{b}}"><view class="mine data-v-7c2ebfa5"><view class="mine-card-no-token data-v-7c2ebfa5" bindtap="{{a}}">登录/注册</view></view></lay-layout>

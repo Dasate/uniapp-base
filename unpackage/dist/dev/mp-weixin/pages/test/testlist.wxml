@@ -1,0 +1,1 @@
+<lay-layout wx:if="{{c}}" u-s="{{['d']}}" u-i="0853c5dd-0" bind:__l="__l" u-p="{{c}}"><pub-list wx:if="{{b}}" u-s="{{['d']}}" u-i="0853c5dd-1,0853c5dd-0" bind:__l="__l" u-p="{{b}}"><view wx:for="{{a}}" wx:for-item="v0" wx:key="b" slot="{{v0.c}}"><view wx:for="{{v0.a}}" wx:for-item="item" wx:key="b"><view>{{item.a}}</view></view></view></pub-list></lay-layout>
